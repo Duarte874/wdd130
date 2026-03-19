@@ -19,7 +19,9 @@ footer {
 
 main {
     width: 400px;
+    /* Largura do card conforme imagem */
     margin: 0 auto;
+    /* Centralização horizontal */
 }
 
 h1 {
@@ -35,6 +37,7 @@ img {
     width: 100%;
     height: auto;
     box-shadow: 0 0 30px #333;
+    /* Sombra externa conforme imagem */
 }
 
 section {
@@ -42,6 +45,7 @@ section {
     border: 1px solid rgb(0 0 0 / 10%);
     padding: 10px;
     background-color: #abe;
+    /* Cor de fundo azul clara */
     font-size: .9rem;
 }
 
