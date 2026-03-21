@@ -1,62 +1,46 @@
-* {
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-}
-
 header,
 footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
+    background-color: #2b4b7c;
+    color: white;
     text-align: center;
-    font-size: 1.5rem;
+    padding: 1.5rem;
 }
 
 main {
-    width: 400px;
-    /* Largura do card conforme imagem */
-    margin: 0 auto;
-    /* Centralização horizontal */
+    max-width: 840px;
+    margin: 20px auto;
+    padding: 20px;
+    display: block;
 }
 
-h1 {
-    margin: 10px;
+aside {
+    width: 250px;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
     text-align: center;
+    float: right;
 }
 
-h2 {
-    border-bottom: 1px solid #222;
-}
-
-img {
-    width: 100%;
+aside img {
+    width: 200px;
     height: auto;
-    box-shadow: 0 0 30px #333;
-    /* Sombra externa conforme imagem */
-}
-
-section {
-    margin: 20px 0;
-    border: 1px solid rgb(0 0 0 / 10%);
-    padding: 10px;
-    background-color: #abe;
-    /* Cor de fundo azul clara */
-    font-size: .9rem;
-}
-
-section p {
-    margin: 10px;
-}
-
-ul {
-    margin: 10px 20px;
+    border-radius: 4px;
 }
 
 footer {
-    font-size: .9rem;
+    clear: both;
+}
+
+p {
+    padding: 0;
 }
