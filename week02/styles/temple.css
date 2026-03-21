@@ -13,6 +13,7 @@ footer {
     padding: 20px;
 }
 
+/* Container principal centralizado */
 main {
     max-width: 840px;
     margin: 20px auto;
@@ -22,23 +23,29 @@ main {
     overflow: auto;
 }
 
+/* Sua foto pessoal à esquerda */
 .my-photo {
-    width: 150px;
+    width: 180px;
     height: auto;
     float: left;
-    margin: 0 20px 10px 0;
+    margin: 0 25px 15px 0;
     border: 1px solid #ccc;
     padding: 5px;
+    background-color: white;
 }
 
 aside {
-    width: 280px;
+    width: 250px;
     float: right;
-    margin: 0 0 20px 20px;
+    margin: 0 0 20px 25px;
     border: 1px solid #ccc;
     padding: 15px;
     background-color: #eeeeee;
     text-align: center;
+}
+
+aside h2 {
+    margin-top: 0;
 }
 
 aside img {
@@ -46,10 +53,15 @@ aside img {
     height: auto;
 }
 
-footer {
-    clear: both;
-}
-
 h2 {
     color: #2b4b7c;
+}
+
+p {
+    line-height: 1.6;
+}
+
+footer {
+    clear: both;
+    margin-top: 20px;
 }
