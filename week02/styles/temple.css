@@ -1,8 +1,8 @@
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    font-family: 'Segoe UI', Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    background-color: #f0f0f0;
+    line-height: 1.6;
 }
 
 header,
@@ -16,31 +16,33 @@ footer {
 main {
     max-width: 840px;
     margin: 20px auto;
+    background-color: white;
     padding: 20px;
-    display: block;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
 aside {
-    width: 250px;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
-    text-align: center;
+    width: 280px;
     float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    background-color: #eee;
+    text-align: center;
 }
 
 aside img {
-    width: 200px;
+    width: 100%;
     height: auto;
     border-radius: 4px;
 }
 
-footer {
-    clear: both;
+h1,
+h2 {
+    color: #2b4b7c;
 }
 
-p {
-    padding: 0;
+footer {
+    clear: both;
 }
